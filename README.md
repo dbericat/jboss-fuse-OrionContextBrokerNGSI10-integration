@@ -2,7 +2,7 @@
 
 JBoss Fuse project to integrate Orion Context Broker in NGSI10 notation.
 
-SUBPROJECTS:
+SUB-PROJECTS:
   * v1.0 -> /camel-cxf-ngis -> Initial version for PoC demo purposes. Please note that:
 
        1- It is not unmarshaling nor marshaling 'position' property to simplify the transformation. 
