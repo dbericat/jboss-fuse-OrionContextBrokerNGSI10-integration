@@ -1,28 +1,14 @@
-Camel Router Project for Apache CXF contract-first using Blueprint (OSGi)
-=========================================================================
+JBoss Fuse project to integrate and Orion Context Broker in NGSI10 notation to any "from" source
+================================================================================================
 
 To build this project use
 
-    mvn install
+    mvn clean install
 
-To deploy the project in OSGi. For example using Apache ServiceMix
-or Apache Karaf. You need to install the following features first:
+To deploy the project in JBoss Fuse 6.2, you need to install the following features first:
 
-    features:install camel-jaxb
-    features:install camel-cxf
+    features:install camel-jackson
 
 And then you can install this example from its shell:
 
     osgi:install -s mvn:com.redhat/camel-cxf-ngis/1.0.0-SNAPSHOT
-
-The web services from Apache CXF is usually listed at:
-
-    http://localhost:8181/cxf
-
-And the WSDL file for this example at:
-
-    http://localhost:8181/cxf/report/?wsdl
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
