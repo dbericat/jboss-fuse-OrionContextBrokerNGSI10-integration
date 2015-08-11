@@ -1,5 +1,5 @@
-JBoss Fuse project to integrate and Orion Context Broker in NGSI10 notation to any "from" source
-================================================================================================
+JBoss Fuse project to integrate Orion Context Broker in NGSI10 notation
+=======================================================================
 
 To build this project use
 
